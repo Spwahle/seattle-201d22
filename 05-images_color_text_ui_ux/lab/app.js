@@ -50,12 +50,8 @@ function sumAndMultiply(a,b,c){
   var myMutli = multiply((multiply(a, b)[0]), c)[0];
   var myAddString = a + ' and ' + b + ' and ' + c + ' sum to ' + mySum3 + '.';
   var myMultiString = 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + myMutli + '.';
-  // console.log(mySum3);
-  // console.log(myMutli);
-  // console.log(myAddString);
-  // console.log('4 and 7 and 5 sum to 16.');
-  // console.log(myMultiString);
-  // console.log('The product of 4 and 7 and 5 is 140.');
+
+
   return [mySum3, myMutli, myAddString, myMultiString];
 }
 
@@ -98,9 +94,7 @@ Test this function by hand in the console to get it working, and when you think 
 function multiplyArray(testArray) {
   var productOfArray = multiply(multiply(testArray[0], testArray[1])[0], testArray[2])[0];
   var myArrayString = 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + productOfArray + '.';
-  // console.log(productOfArray);
-  // console.log(message);
-  // console.log('The numbers 2,3,4 have a product of 24.');
+
   return [productOfArray, myArrayString];
 }
 
